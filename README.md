@@ -15,6 +15,8 @@ These are application examples, not claims of live casino integrations or verifi
 
 [Try the free browser receipt checker](https://minasyannarek13-rbb.github.io/ops-automation-skills/)
 
+[Casino Math Lab](https://minasyannarek13-rbb.github.io/ops-automation-skills/casino-math/) — free educational RTP and blackjack payout arithmetic, not a strategy or betting tool.
+
 ## Single Action Receipt Check
 
 A successful tool call or HTTP 202 is not proof that a business action completed. Supply redacted receipts and a known expected action. The optional local Python checker flags missing evidence, conflicting receipt IDs and duplicate destination records. It never sends messages, changes remote data, or retries an action.
