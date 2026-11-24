@@ -1,6 +1,19 @@
-# Ops Automation Lab — free AI agent skills
+# Ops Automation Lab — AI tools for iGaming operations
 
-Evidence-first tools for AI workflow owners and operations teams. The first skill checks whether a single expected action actually reached its destination.
+Evidence-first AI tools for iGaming B2B operators, game providers, aggregators and platform teams. Built around finance reconciliation, integration QA, incident recovery and operational evidence. The tools are also useful in other industries.
+
+## iGaming use cases
+
+| Operational problem | Evidence to review | Relevant tool |
+| --- | --- | --- |
+| A provider settlement is marked as processed | Authorized settlement reference and destination readback | Single Action Receipt Check |
+| A provider integration or back-office action reports success | Expected state, actual state and duplicate effects | AI Agent Outcome & Receipt Auditor |
+| A service restart is treated as incident closure | Service evidence, delivery confirmation and observation window | AI Operations Evidence & Reliability Toolkit |
+| An aggregate provider invoice differs from contracted revenue share | Reviewed monthly contract, aggregate usage and invoice | Revenue Assurance Suite |
+
+These are application examples, not claims of live casino integrations or verified customer results. No gambling functionality, access to player accounts, or payment execution is provided.
+
+[Try the free browser receipt checker](https://minasyannarek13-rbb.github.io/ops-automation-skills/)
 
 ## Single Action Receipt Check
 

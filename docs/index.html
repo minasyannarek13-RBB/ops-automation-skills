@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self'; base-uri 'none'; form-action 'none'">
 <title>AI Agent Receipt Checker — Free, open source | Ops Automation Lab</title>
-<meta name="description" content="Verify one AI agent action against supplied receipts. Identify missing destination evidence and duplicate records using a free, local browser checker.">
+<meta name="description" content="Free evidence checker for iGaming B2B operations and other AI workflows. Review one action against supplied receipts without uploading data.">
 <link rel="stylesheet" href="style.css">
 <script defer src="checker.js"></script>
 <script defer src="app.js"></script>
@@ -13,7 +13,7 @@
 <body>
 <header><a class="brand" href="https://github.com/minasyannarek13-RBB/ops-automation-skills">OPS / AUTOMATION LAB</a><span class="meta">OPEN SOURCE · MIT</span></header>
 <main>
-<section class="hero"><p class="eyebrow">EVIDENCE FIRST / FREE TOOL</p><h1>Did your AI agent<br>actually do it?</h1><p class="lead">A successful tool call is not a verified outcome. Check one expected action against its receipts before retrying.</p><div class="privacy">Runs locally in your browser. No account, API, analytics or upload of your input.</div></section>
+<section class="hero"><p class="eyebrow">IGAMING B2B / EVIDENCE FIRST</p><h1>Did your AI agent<br>actually do it?</h1><p class="lead">For iGaming finance, provider integrations and back-office operations: a successful tool call is not a verified outcome. Check one expected action against its receipts before retrying.</p><div class="privacy">Runs locally in your browser. No account, API, analytics or upload of your input.</div></section>
 <section class="workbench" aria-label="Receipt checker">
 <div class="panel"><div class="panel-head"><h2>1. Supply evidence</h2><span>JSON</span></div>
 <p class="hint">Try a fictional example or paste redacted evidence. Never include credentials or personal data.</p>
@@ -23,7 +23,7 @@
 <div class="actions"><button class="primary" type="button" id="run">Check evidence</button><button type="button" id="clear">Clear</button></div></div>
 <div class="panel"><div class="panel-head"><h2>2. Review result</h2><span>LOCAL</span></div><div id="result" aria-live="polite"><p class="eyebrow">SCOPED VERDICT</p><h3 id="verdict">Not checked</h3><p id="reason">Choose a sample or enter evidence.</p><div class="metrics"><div><span>Distinct destinations</span><strong id="dest">—</strong></div><div><span>Excluded receipts</span><strong id="excluded">—</strong></div></div><div class="next"><b>Next safe check</b><p id="next">No action performed.</p></div><details><summary>Full structured result</summary><pre id="output"></pre></details></div></div>
 </section>
-<section class="notes"><h2>What this checker can establish</h2><p>One expected effect only. A confirmed receipt requires a matching run ID, action ID, target, business key and explicit destination readback. Duplicate or contradictory evidence must be reconciled. A failed attempt does not establish the absence of side effects.</p><p>The checker trusts supplied evidence labels; it cannot verify their authenticity, connect to a destination or authorize a retry. Use exact strings for IDs and numeric metadata; the browser version rejects non-safe-integer numeric metadata. JSON object keys should be unique. Synthetic examples are not customer outcomes.</p><a href="https://github.com/minasyannarek13-RBB/ops-automation-skills">View source, tests and installation instructions on GitHub</a></section>
+<section class="notes"><h2>Example: provider settlement workflow</h2><p>A settlement workflow reports that a record was created. If all you have is an accepted request, the destination is still unverified. Supply a redacted reference and an authorized readback before treating the workflow as complete. The samples above are fictional; this tool does not connect to any casino, payment system or provider.</p><h2>What this checker can establish</h2><p>One expected effect only. A confirmed receipt requires a matching run ID, action ID, target, business key and explicit destination readback. Duplicate or contradictory evidence must be reconciled. A failed attempt does not establish the absence of side effects.</p><p>The checker trusts supplied evidence labels; it cannot verify their authenticity, connect to a destination or authorize a retry. Use exact strings for IDs and numeric metadata; the browser version rejects non-safe-integer numeric metadata. JSON object keys should be unique. Synthetic examples are not customer outcomes.</p><a href="https://github.com/minasyannarek13-RBB/ops-automation-skills">View source, tests and installation instructions on GitHub</a></section>
 <noscript>This tool requires JavaScript to perform local calculations.</noscript></main>
 <footer>Ops Automation Lab · Free open-source project demonstration · No live actions performed.</footer>
 </body></html>
