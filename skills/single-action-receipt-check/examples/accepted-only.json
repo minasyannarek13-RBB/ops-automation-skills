@@ -1,0 +1,18 @@
+{
+  "expected": {
+    "run_id": "run-demo",
+    "action_id": "save-demo",
+    "target": "staging",
+    "business_key": "record-1"
+  },
+  "receipts": [
+    {
+      "run_id": "run-demo",
+      "action_id": "save-demo",
+      "target": "staging",
+      "business_key": "record-1",
+      "receipt_id": "ack-1",
+      "status": "ACCEPTED"
+    }
+  ]
+}
