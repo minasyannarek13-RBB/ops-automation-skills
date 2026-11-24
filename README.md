@@ -13,6 +13,10 @@ Evidence-first AI tools for iGaming B2B operators, game providers, aggregators a
 
 These are application examples, not claims of live casino integrations or verified customer results. No gambling functionality, access to player accounts, or payment execution is provided.
 
+## iGaming Intelligence Lab
+
+[Open the free workbench](https://minasyannarek13-rbb.github.io/ops-automation-skills/intelligence/) — a unified browser-based project for historical single-contract settlement review, studio operating contribution, evidence checks and casino math education. Local JSON reports, no account or data upload. The new finance modules use exact integer arithmetic; all figures require independent source review.
+
 [Try the free browser receipt checker](https://minasyannarek13-rbb.github.io/ops-automation-skills/)
 
 [Casino Math Lab](https://minasyannarek13-rbb.github.io/ops-automation-skills/casino-math/) — free educational RTP and blackjack payout arithmetic, not a strategy or betting tool.
