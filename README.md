@@ -21,6 +21,8 @@ These are application examples, not claims of live casino integrations or verifi
 
 [Casino Math Lab](https://minasyannarek13-rbb.github.io/ops-automation-skills/casino-math/) — free educational RTP and blackjack payout arithmetic, not a strategy or betting tool.
 
+[Disclosure Evidence Desk](https://minasyannarek13-rbb.github.io/ops-automation-skills/evidence/) — check scope, provenance and conflicting supplied RTP disclosures. Three official Great Britain regulator references; no independently populated game database or licence certification.
+
 ## Single Action Receipt Check
 
 A successful tool call or HTTP 202 is not proof that a business action completed. Supply redacted receipts and a known expected action. The optional local Python checker flags missing evidence, conflicting receipt IDs and duplicate destination records. It never sends messages, changes remote data, or retries an action.
